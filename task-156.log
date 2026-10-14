@@ -1,0 +1,42 @@
+
+> umgn-chatbot@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 1796ms
+ ○ Compiling / ...
+ ✓ Compiled / in 5.2s (1084 modules)
+ GET / 200 in 5417ms
+ ✓ Compiled in 236ms (546 modules)
+ GET / 200 in 59ms
+ ○ Compiling /api/auth/me ...
+ ✓ Compiled /api/auth/me in 686ms (668 modules)
+ GET /api/auth/me 200 in 803ms
+ GET /api/auth/me 200 in 10ms
+ ✓ Compiled /api/auth/register in 482ms (670 modules)
+ POST /api/auth/register 200 in 1144ms
+ ○ Compiling /src/middleware ...
+ ✓ Compiled /src/middleware in 1897ms (152 modules)
+ ✓ Compiled /api/chats in 304ms (672 modules)
+ GET /api/chats 200 in 366ms
+ POST /api/chats 201 in 58ms
+ ○ Compiling /api/chat/stream ...
+ ✓ Compiled /api/chat/stream in 574ms (673 modules)
+ POST /api/chat/stream 200 in 4485ms
+ GET /api/chats 200 in 25ms
+ ✓ Compiled /api/chats/[id] in 307ms (675 modules)
+ GET /api/chats/cmtzhia7f0003g0j75wroh1hz 200 in 685ms
+ POST /api/chat/stream 200 in 3751ms
+ GET /api/chats 200 in 17ms
+ ✓ Compiled /api/user/settings in 396ms (669 modules)
+ PATCH /api/user/settings 200 in 461ms
+ ✓ Compiled /api/user/export in 288ms (671 modules)
+ GET /api/user/export 200 in 343ms
+ ✓ Compiled /api/chat/stream in 235ms (673 modules)
+ POST /api/chat/stream 200 in 3941ms
+ ✓ Compiled /api/chats in 205ms (675 modules)
+ GET /api/chats 200 in 241ms

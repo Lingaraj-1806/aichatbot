@@ -1,0 +1,86 @@
+
+> umgn-chatbot@1.0.0 build
+> prisma generate && next build
+
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (v5.22.0) to .\node_modules\@prisma\client in 52ms
+
+Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+
+Tip: Want to turn off tips and other hints? https://pris.ly/tip-4-nohints
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+  ▲ Next.js 14.2.35
+  - Environments: .env.local, .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/13) ...
+   Generating static pages (3/13) 
+Auth me check error: B [Error]: Dynamic server usage: Route /api/auth/me couldn't be rendered statically because it used `request.headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at V (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\next-server\app-route.runtime.prod.js:6:21778)
+    at Object.get (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\next-server\app-route.runtime.prod.js:6:29465)
+    at g (C:\Users\LENOVO\Documents\ud\.next\server\app\api\auth\register\route.js:1:3753)
+    at p (C:\Users\LENOVO\Documents\ud\.next\server\app\api\auth\me\route.js:1:997)
+    at C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\next-server\app-route.runtime.prod.js:6:38417
+    at C:\Users\LENOVO\Documents\ud\node_modules\next\dist\server\lib\trace\tracer.js:140:36
+    at NoopContextManager.with (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854) {
+  description: "Route /api/auth/me couldn't be rendered statically because it used `request.headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+  digest: 'DYNAMIC_SERVER_USAGE'
+}
+Data export error: B [Error]: Dynamic server usage: Route /api/user/export couldn't be rendered statically because it used `request.headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at V (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\next-server\app-route.runtime.prod.js:6:21778)
+    at Object.get (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\next-server\app-route.runtime.prod.js:6:29465)
+    at m (C:\Users\LENOVO\Documents\ud\.next\server\app\api\auth\logout\route.js:1:2293)
+    at p (C:\Users\LENOVO\Documents\ud\.next\server\app\api\user\export\route.js:1:997)
+    at C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\next-server\app-route.runtime.prod.js:6:38417
+    at C:\Users\LENOVO\Documents\ud\node_modules\next\dist\server\lib\trace\tracer.js:140:36
+    at NoopContextManager.with (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (C:\Users\LENOVO\Documents\ud\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854) {
+  description: "Route /api/user/export couldn't be rendered statically because it used `request.headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+  digest: 'DYNAMIC_SERVER_USAGE'
+}
+   Generating static pages (6/13) 
+   Generating static pages (9/13) 
+ ✓ Generating static pages (13/13)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    56.8 kB         144 kB
+├ ○ /_not-found                          873 B          88.1 kB
+├ ƒ /api/auth/login                      0 B                0 B
+├ ƒ /api/auth/logout                     0 B                0 B
+├ ƒ /api/auth/me                         0 B                0 B
+├ ƒ /api/auth/register                   0 B                0 B
+├ ƒ /api/chat/stream                     0 B                0 B
+├ ƒ /api/chats                           0 B                0 B
+├ ƒ /api/chats/[id]                      0 B                0 B
+├ ƒ /api/user/account                    0 B                0 B
+├ ƒ /api/user/chats                      0 B                0 B
+├ ƒ /api/user/export                     0 B                0 B
+└ ƒ /api/user/settings                   0 B                0 B
++ First Load JS shared by all            87.2 kB
+  ├ chunks/117-ee3cf2893d2ceff7.js       31.7 kB
+  ├ chunks/fd9d1056-c96c49782430d626.js  53.6 kB
+  └ other shared chunks (total)          1.86 kB
+
+
+ƒ Middleware                             32.1 kB
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

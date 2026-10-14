@@ -1,0 +1,63 @@
+
+> umgn-chatbot@1.0.0 build
+> prisma generate && next build
+
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (v5.22.0) to .\node_modules\@prisma\client in 49ms
+
+Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+
+Tip: Need your database queries to be 1000x faster? Accelerate offers you that and more: https://pris.ly/tip-2-accelerate
+
+┌─────────────────────────────────────────────────────────┐
+│  Update available 5.22.0 -> 8.0.0-rc.14                 │
+│                                                         │
+│  This is a major update - please follow the guide at    │
+│  https://pris.ly/d/major-version-upgrade                │
+│                                                         │
+│  Run the following to update                            │
+│    npm i --save-dev prisma@latest                       │
+│    npm i @prisma/client@latest                          │
+└─────────────────────────────────────────────────────────┘
+  ▲ Next.js 14.2.35
+  - Environments: .env.local, .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/9) ...
+   Generating static pages (2/9) 
+   Generating static pages (4/9) 
+   Generating static pages (6/9) 
+ ✓ Generating static pages (9/9)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    56.8 kB         144 kB
+├ ○ /_not-found                          873 B          88.1 kB
+├ ƒ /api/auth/login                      0 B                0 B
+├ ƒ /api/auth/logout                     0 B                0 B
+├ ƒ /api/auth/me                         0 B                0 B
+├ ƒ /api/auth/register                   0 B                0 B
+├ ƒ /api/chat/stream                     0 B                0 B
+├ ƒ /api/chats                           0 B                0 B
+├ ƒ /api/chats/[id]                      0 B                0 B
+├ ƒ /api/user/account                    0 B                0 B
+├ ƒ /api/user/chats                      0 B                0 B
+├ ƒ /api/user/export                     0 B                0 B
+└ ƒ /api/user/settings                   0 B                0 B
++ First Load JS shared by all            87.2 kB
+  ├ chunks/117-ee3cf2893d2ceff7.js       31.7 kB
+  ├ chunks/fd9d1056-c96c49782430d626.js  53.6 kB
+  └ other shared chunks (total)          1.86 kB
+
+
+ƒ Middleware                             32.1 kB
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
